@@ -1,6 +1,8 @@
-# Software installation for APCS 2020-21
+# Software installation - Mac
 
-On OSX (Apple), we will use Homebrew, which is a software package manager.
+## Install Homebrew
+
+Homebrew is a software package manager that will help us install everything else we need.
 
 The first step is to install Homebrew:
 
