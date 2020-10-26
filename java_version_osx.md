@@ -1,4 +1,19 @@
-# Development environment setup
+# Java versions on Mac
+
+## Install Java 8
+
+We need to use Java version 8 (also known as 1.8) in order to use the
+Processing libraries.
+
+If you haven't already, install with Homebrew from Terminal:
+
+```
+brew tap adoptopenjdk/openjdk
+brew cask install adoptopenjdk8
+```
+
+If success: `adoptopenjdk8 was successfully installed!`
+
 
 ## Java versions on OSX
 
@@ -15,7 +30,7 @@ home directory of one of the Java versions.  This command
 ```
 /usr/libexec/java_home -v 1.8
 ```
-outputs: 
+should output: 
 ```
 /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
 ```
@@ -26,9 +41,9 @@ To switch the default Java to Version 8 (Java 1.8), set the
 export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 ```
 
-To automatically set `JAVA_HOME` when you open a Terminal window,
-use Atom to add the `export` line above to `~/.bashrc`.
-
+To automatically set `JAVA_HOME` when you open a Terminal window, use Atom to
+add the `export` line above to `~/.bashrc` (or `~\.bash_profile`, or `.zshrc`
+on Catalina).
 
 To check that you are using the correct version, make sure that the following
 commands show version 1.8:
