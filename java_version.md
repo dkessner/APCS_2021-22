@@ -1,9 +1,18 @@
-# Java versions on Mac
+# Java versions 
 
-## Install Java 8
+## Java 8
 
 We need to use Java version 8 (also known as 1.8) in order to use the
 Processing libraries.
+
+To check that you are using the correct version, make sure that the following
+commands show version 1.8:
+```
+java -version
+javac -version
+```
+
+## Java versions on Mac
 
 If you haven't already, install with Homebrew from Terminal:
 
@@ -13,9 +22,6 @@ brew cask install adoptopenjdk8
 ```
 
 If success: `adoptopenjdk8 was successfully installed!`
-
-
-## Java versions on OSX
 
 On OSX, different versions of Java are generally installed in 
 `/Library/Java/JavaVirtualMachines`
@@ -44,12 +50,5 @@ export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 To automatically set `JAVA_HOME` when you open a Terminal window, use Atom to
 add the `export` line above to `~/.bashrc` (or `~\.bash_profile`, or `.zshrc`
 on Catalina).
-
-To check that you are using the correct version, make sure that the following
-commands show version 1.8:
-```
-java -version
-javac -version
-```
 
 
