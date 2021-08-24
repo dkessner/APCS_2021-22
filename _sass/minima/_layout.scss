@@ -187,7 +187,7 @@
 }
 
 .post {
-    width: calc(100vw - 400px);
+    width: calc(100vw - 440px);
 
     @include media-query($on-palm) {
       width: 85vw;
