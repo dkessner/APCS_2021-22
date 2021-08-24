@@ -187,7 +187,11 @@
 }
 
 .post {
-    width: 95%;
+    width: calc(100vw - 400px);
+
+    @include media-query($on-palm) {
+      width: 85vw;
+    }
 }
 
 .post-list-heading {
