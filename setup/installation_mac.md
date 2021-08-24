@@ -5,9 +5,8 @@ layout: page
 
 ## Install Homebrew
 
-Homebrew is a software package manager that will help us install everything else we need.
-
-The first step is to install Homebrew:
+The first step is to install Homebrew, which is a software package manager that
+will help us install everything else we need.
 
 - Go to the [Homebrew website](https://brew.sh/) and read the installation instructions.
 - To install, you will copy/paste a command from their webpage to your Terminal.
@@ -17,39 +16,31 @@ You can install everything else with Homebrew, from the command line.
 
 ## Install Java
 
-```
-brew cask install java
-```
-
-## Install Java 8
+Install the Java Development Kit (JDK) from the Eclipse Foundation
+(latest version, 16)
+([info](https://formulae.brew.sh/cask/temurin)). 
 
 ```
-brew tap adoptopenjdk/openjdk
-brew cask install adoptopenjdk8
+brew install --cask temurin
 ```
 
-If success: `adoptopenjdk8 was successfully installed!`
+Check that everything is installed properly: each of these commands should
+report version 16.x.
 
+```
+javac -version
+java -version
+```
 
 ## Install Atom
 
-Easiest way is to install with Homebrew:
+[Atom](https://atom.io/) is a text editor.  If you already have a favorite text
+editor, feel free to use that instead.
 
 ```
 brew cask install atom
 ```
 
-or you can go to the [Atom website](https://atom.io/).
 
-
-## Install Backup and Sync
-
-
-It looks like you can install this with Homebrew too:
-```
-brew cask install google-backup-and-sync
-```
-
-or you can get the [Backup and Sync installer](https://www.google.com/drive/download/).
 
 
