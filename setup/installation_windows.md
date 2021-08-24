@@ -7,33 +7,33 @@ layout: page
 
 Chocolatey is a package manager for Windows, similar to Homebrew on Mac.
 
-Read the instructions from Chocolatey website:  
+Read and follow the instructions from Chocolatey website (carefully!) to
+install:
 [https://chocolatey.org/install](https://chocolatey.org/install)  
-
-- open up admin command prompt
-    - right click Start menu, select `Command Prompt (Admin)`
-
-- from the command line run `powershell`
-
-- copy/paste the installation command from the Chocolatey website to your
-  command line
-    
-## Install Atom
-
-```
-choco install atom
-```
+   
 
 ## Install Java
 
 ```
-choco install jdk8
+choco install openjdk
 ```
 
-Verify that you have Java 8 (version 1.8) installed:
+Check that everything is installed properly: each of these commands should
+report version 16.x.
+
 ```
 java -version
 javac -version
+```
+
+
+## Install Atom
+
+[Atom](https://atom.io/) is a text editor.  If you already have a favorite text
+editor, feel free to use that instead.
+
+```
+choco install atom
 ```
 
 ## Paths
