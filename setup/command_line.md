@@ -36,58 +36,20 @@ abundance of tutorials online about the command line, as well as reference
 pages for each command.
  
 
-<table>
-    <tr>
-        <th>Unix Command <br/> (including Mac OS, Linux)</th>
-        <th>Windows Command</th>
-        <th>Function</th>
-    </tr>
-    <tr>
-        <td>ls</td>
-        <td>dir</td>
-        <td>list files in directory</td>
-    </tr>
-    <tr>
-        <td>cd</td>
-        <td>cd</td>
-        <td>change directory</td>
-    </tr>
-    <tr>
-        <td>cat</td>
-        <td>type</td>
-        <td>print contents of file to console</td>
-    </tr>
-    <tr>
-        <td>mv</td>
-        <td>move</td>
-        <td>move file or directory</td>
-    </tr>
-    <tr>
-        <td>cp</td>
-        <td>copy</td>
-        <td>copy file or directory</td>
-    </tr>
-    <tr>
-        <td>mkdir</td>
-        <td>md</td>
-        <td>make directory</td>
-    </tr>
-    <tr>
-        <td>rm / rmdir</td>
-        <td>del / rmdir</td>
-        <td>remove/delete file or directory</td>
-    </tr>
-    <tr>
-        <td>which</td>
-        <td>where</td>
-        <td>find full path to specified command</td>
-    </tr>
-    <tr>
-        <td>pwd</td>
-        <td>cd</td>
-        <td>print current (working) directory</td>
-    </tr>
-</table>
+
+
+| Unix | Windows | Function |
+|------|---------|----------|
+|ls |dir |list files in directory |
+|cd |cd |change directory |
+|cat |type |print contents of file to console |
+|mv |move |move file or directory |
+|cp |copy |copy file or directory |
+|mkdir |md |make directory |
+|rm / rmdir |del / rmdir |remove file / directory |
+|which |where |find full path to specified command |
+|pwd |cd |print current (working) directory |
+
 
 
 ## Miscellaneous notes
@@ -95,38 +57,50 @@ pages for each command.
 ### Current directory
 
  When working on the command line (in both Unix and Windows) you need to be
-aware of your <em>current directory</em> (sometimes called <em>working
-directory</em>).  When you start up the command line shell, you begin in your
-<em>home directory</em>, i.e. your current directory starts out as your home
-directory.  On both Unix and Windows, <code>.</code> (dot) refers to the
-current directory, and <code>..</code> (dot dot) refers to the directory one
+aware of your _current directory_ (sometimes called _working
+directory_).  When you start up the command line shell, you begin in your
+_home directory_, i.e. your current directory starts out as your home
+directory.  On both Unix and Windows, ```.``` (dot) refers to the
+current directory, and ```..``` (dot dot) refers to the directory one
 level back.  On Unix systems, you can refer to your home directory with the
-<code>~</code> (tilde) symbol, and you can jump directly back to your home
-directory by using <code>cd</code> with no additional arguments.
+```~``` (tilde) symbol, and you can jump directly back to your home
+directory by using ```cd``` with no additional arguments.
 
-<h3>File paths</h3>
+### File paths
 
  On Unix, directories in file paths are separated by a forward slash
-(<code>/</code>): <pre><code class="language-bash">~/temp/hello </code></pre>
+(```/```): 
+
+
+```
+~/temp/hello 
+```
+
 On Windows, directories in file paths are separated by a backslash
-(<code>\</code>): <pre><code class="language-bash">C:\Users\kessnerd\temp\hello
-</code></pre> 
+(```\```): 
 
-<h3>Wildcards</h3>
+```
+C:\Users\kessnerd\temp\hello
+```
 
-On both Unix and Windows, you can use <code>*</code> (star) as a wildcard
-that will match any string, e.g. <code>*.txt</code> means "all files with
-extension <code>.txt</code>".
+### Wildcards
 
-<h3>PATH</h3> Both Unix and Windows use environment variables, and in
-particular an environment variabled called <code>PATH</code>, which contains a
-list of diretories.   When the user types in a command, the operating
+On both Unix and Windows, you can use ```*``` (star) as a wildcard
+that will match any string, e.g. ```*.txt``` means "all files with
+extension ```.txt```".
+
+### PATH
+
+Both Unix and Windows use environment variables, and in
+particular an environment variabled called ```PATH```, which contains a
+list of directories.   When the user types in a command, the operating
 system goes through each directory in the list, searching for the command
 executable, and running the executable when it finds it. If you write a
 command line program and want to be able to run it from any directory, you must
-put the executable in a directory that is in the <code>PATH</code>.  
+put the executable in a directory that is in the ```PATH```.  
 
-<h3>Scripting</h3> A <em>script</em> is just another name for a program that
+### Scripting
+A _script_ is just another name for a program that
 is run through an interpreter.  Command line scripts are run by the
 command line interpreter.  A script can be as simple as a few commands.
 On the other hand, scripts on Unix (bash scripts) or Windows (batch
