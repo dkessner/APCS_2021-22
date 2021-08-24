@@ -38,6 +38,6 @@ code from your original quiz, make sure it runs correctly, and show me.
 You will also have at least one larger coding project, which you will present
 at STEM + Arts Galleries and/or the SPARC Celebration.
 
-Your grade will be determined by your assignments, quizzes , and project(s)
+Your grade will be determined by your assignments, quizzes, and project(s)
 (in roughly equal proportions).
 
