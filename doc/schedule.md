@@ -9,8 +9,8 @@ layout: page
 
 |Week|Date  |#|Topics|
 |----|------|-|------|
-|1   |Aug 30|2|Introductions, Installation (JDK, text editor, Google Drive client); Command line, dev environment setup; Summer projects|
-|2   |Sep 6 |1|Unit 0 (Numeric conversion, command line)|
+|1   |Aug 30|2|Introductions, Installation; Command line, dev environment setup, Summer projects|
+|2   |Sep 6 |1|Unit 0 (Command line, numeric conversion)|
 |3   |Sep 13|2|Unit 1 (Java Basics)|
 |4   |Sep 20|3|Unit 2 (Functions and Conditionals)|
 |5   |Sep 27|2|Unit 3 (String, Math, Random)|
