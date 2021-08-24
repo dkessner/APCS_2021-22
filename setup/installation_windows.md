@@ -47,3 +47,20 @@ Variables".
 
 
 
+## Create a GitHub account
+
+[GitHub](https://github.com/) hosts code repositories for software projects.
+We will be using GitHub for sharing code.
+
+Please make an account and email me your account name.
+
+
+## Install GitHub Desktop
+
+[GitHub Deskop](https://desktop.github.com/) is a desktop application
+that facilitates interacting with repositories on GitHub.
+
+```
+choco install github-desktop
+```
+
