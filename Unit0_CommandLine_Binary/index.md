@@ -20,5 +20,3 @@ layout: page
 
 [Assignment](Unit0_Assignment)
 
-
-[Quiz A](Unit0_QuizA.pdf)
