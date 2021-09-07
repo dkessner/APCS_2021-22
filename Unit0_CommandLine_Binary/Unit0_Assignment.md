@@ -1,11 +1,12 @@
 ---
 title: Unit 0 Assignment
 layout: page
+geometry: margin=.75in
 ---
 
-## Numeric conversion
+## Practice numeric conversions
 
-Practice the following numeric conversions:
+Practice all of these ten possible conversions:
 
 * `decimal <-> binary, octal, hexadecimal`
 * `binary <-> octal, hexadecimal`
@@ -14,73 +15,44 @@ Here's a fun way to practice `hex <-> decimal`: Find an RGB color picker
 (Processing, Photoshop, Google).  Pick a color.  Look at the hex values,
 convert to decimal RGB, and check your work.  Do the same in reverse.
 
-For the others, make up your own exercises and use Google or other online
+For the others, make up your own exercises and use Google or another online
 converter to check your work.
 
-The Unit 0 Quiz will consist of 5 numeric conversions (from the 10 possible
-conversion directions listed above). 
+The Unit 0 Quiz will consist of 5 numeric conversions.
 
-## Command line
+## Practice using the command line
 
 You won't be tested on stuff related to the command line.  However, you will be
 using the command line extensively this year.  Think of your time spent
 practicing working on the command line as an investment that will save you time
 not only this school year, but any time you do any future work on the computer.
-These are some recommended exercises, but I also encourage you to think of your
-own exercises and figure out how to do them.
 
-### 1. Practice using the command line
+Here is a recommended exercise, but I also encourage you to practice on your own:
 
 * On paper, draw out a directory tree (2-3 levels deep) with some text files in
   various directories.  
 
-* On the command line, create this directory tree.
+* On the command line, create this directory tree.  Look at your directory in
+  Finder / Explorer to check your work.
 
-* Make a copy (`cp -r`) of an entire sub-tree inside the directory tree.
-
-### 2. Copy someone else's project and modify
-
-Do the following from the command line:
-
-* Copy `class/hello` to your own named directory.  Remember that there are 
-    several ways to do this.
-* Modify your copy of `hello.py` in your text editor, save, and run to see your
-  changes:
-    - `atom hello.py`
-    - `python hello.py`
-* Modify your copy of `Hello.java` in your text editor, save, compile, and run
-  to see your changes:
-    - `atom Hello.java`
-    - `javac Hello.java`
-    - `java Hello`
-
-I encourage you to look at your classmates' code this year.  Please feel free
-to copy it into your own directory and play around with it.  However, remember
-that copying and pasting code into your own project will not help you get any
-better at writing code yourself.  Moreover, typing the code in yourself is not
-sufficient - if you copy code directly from your eyeballs to your fingers
-without it passing through your brain, you might as well be copy / pasting.
-
-_A quick note about the Honor Code_. In light of this discussion, I challenge
-you to extend the Honor Code to your personal development in computer science
-and writing code outside of class:  Copy and play around with other people's
-code all you want, but don't copy/paste into your own project without
-attribution, and don't use code you don't understand.
-
-### 3. Practice writing programs
+## Practice writing programs
 
 Create a new directory and write the "Hello, world!" programs for both Python
-and Java from scratch.  It's okay to look at the example.  This is to practice
-copying accurately and getting the programs to run correctly.
+and Java from scratch.  Make modifications to your programs, and re-compile and
+run.
 
+## A note on copying code
 
-### 4. Meow
+The code exercises are for you to practice using the ideas we discuss in class
+to solve problems you haven't seen before.  If you are stuck on a code
+exercise, you are absolutely welcome to get help from your classmates (or me,
+or the internet), and to look at their code.  
 
-Here's something fun -- using the `say` command, modify your `meow` command to
-audibly meow in addition to printing the ASCII cat.
+However, remember that copying and pasting code into your own project will not
+help you get any better at solving problems or writing code yourself.  
 
-
----
-geometry: margin=.75in
----
+It is your responsibility as a student to understand how your code works, and
+to seek help if you're not sure about something.  If you and a classmate work
+together on anything, please make it clear which parts you worked on together,
+and which parts you did on your own.
 
