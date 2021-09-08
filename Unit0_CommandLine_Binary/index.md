@@ -25,3 +25,5 @@ layout: page
 
 [pdf](notes.pdf)
 
+<iframe class="video" src="https://www.youtube.com/embed/mgc5pNr5E5E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
