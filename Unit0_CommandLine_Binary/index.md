@@ -20,3 +20,8 @@ layout: page
 
 [Assignment](Unit0_Assignment)
 
+
+![notes](0.png)
+
+[pdf](notes.pdf)
+
