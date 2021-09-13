@@ -3,6 +3,8 @@ title: Unit 0 Assignment
 layout: page
 geometry: margin=.75in
 ---
+__Command line, binary__  
+__AP Computer Science 2021-22 / Dr. Kessner__  
 
 ## Practice numeric conversions
 
