@@ -12,6 +12,33 @@ layout: page
 - running Python programs
 - compiling and running Java programs
 
+
+[hello.py](hello/hello.py)
+
+```python
+{% include_relative hello/hello.py %}```
+
+Run the program in your terminal:
+
+```terminal
+$ python hello.py
+Hello, world!
+```
+
+[Hello.java](hello/Hello.java)
+
+```java
+{% include_relative hello/Hello.java %}```
+
+In terminal:
+
+```terminal
+$ javac Hello.java      # compile
+$ java Hello            # run
+Hello, world!
+```
+
+
 ## Counting in binary
 
 * binary
