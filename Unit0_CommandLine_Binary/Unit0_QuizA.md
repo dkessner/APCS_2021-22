@@ -12,23 +12,23 @@ those who understand binary, and those who don't
 ```
 
 
-### 1) Convert 0xAD to decimal.
+### 1) Convert 0xBC to decimal.
 
 \vspace{14ex}
 
-### 2) Convert 0xC7 to binary.
+### 2) Convert 0xD6 to binary.
 
 \vspace{14ex}
 
-### 3) Convert $753_{OCT}$ to binary.
+### 3) Convert $712_{OCT}$ to binary.
 
 \vspace{14ex}
 
-### 4) Convert $11101101_{BIN}$ to hexadecimal.
+### 4) Convert $10101011_{BIN}$ to hexadecimal.
 
 \vspace{14ex}
 
-### 5) Convert $667_{DEC}$ to hexadecimal.
+### 5) Convert $665_{DEC}$ to hexadecimal.
 
 \vspace{14ex}
 
