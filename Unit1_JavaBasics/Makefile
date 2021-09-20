@@ -7,11 +7,11 @@
 # $< first prerequisite
 
 
-pdf_targets = $(patsubst %.md,%.pdf,$(wildcard *.md))
+pdf_targets = $(patsubst %.md,%.pdf,$(wildcard *Quiz*.md))
 
 html_targets = $(patsubst %.md,%.html,$(wildcard *.md))
 
-targets = $(pdf_targets) $(html_targets)
+targets = $(pdf_targets)
 
 all: $(targets)
 	@echo Targets: $(targets)
