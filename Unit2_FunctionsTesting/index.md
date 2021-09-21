@@ -27,3 +27,15 @@ Topics:
 [Assignment](Unit2_Assignment)
 
 
+[HelloFunctions.java](demo/HelloFunctions.java)
+
+```java
+{% include_relative demo/HelloFunctions.java %}```
+
+
+[SleepIn.java](demo/SleepIn.java)
+
+```java
+{% include_relative demo/SleepIn.java %}```
+
+
