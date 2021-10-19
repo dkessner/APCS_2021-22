@@ -10,3 +10,26 @@ Topics:
 [Assignment](Unit6_Assignment)
 
 
+## Set your CLASSPATH
+
+On Mac, if you installed Processing in your Applications folder, the
+Processing library (.jar) files are in ```/Applications/Processing.app/Contents/Java/core/library/*```
+
+Use the ```CLASSPATH``` environment variable so that ```javac/java```
+can find the Processing .jar files.
+
+
+```console
+export CLASSPATH=".:/Applications/Processing.app/Contents/Java/core/library/*"
+```
+
+
+## Hello Processing libraries!
+
+[demo/Hello.java](demo/Hello.java)
+
+```console
+{% include_relative demo/Hello.java %}
+```
+
+
