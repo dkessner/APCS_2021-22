@@ -34,4 +34,9 @@ You will want to add this line to your shell initialization file, e.g.
 {% include_relative demo/Hello.java %}
 ```
 
+<div class="sketch-container" id="helloContainer"></div>
+<script src="demo/hello.js"></script>
+<script>
+let hello = new p5(addHandlers(helloSketchMaker), "helloContainer");
+</script>
 
