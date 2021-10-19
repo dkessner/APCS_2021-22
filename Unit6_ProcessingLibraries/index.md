@@ -18,10 +18,12 @@ Processing library (.jar) files are in ```/Applications/Processing.app/Contents/
 Use the ```CLASSPATH``` environment variable so that ```javac/java```
 can find the Processing .jar files.
 
-
 ```console
 export CLASSPATH=".:/Applications/Processing.app/Contents/Java/core/library/*"
 ```
+
+You will want to add this line to your shell initialization file, e.g.
+```.bash_profile```, ```.bashrc```, or ```.zshrc``` depending on your setup.
 
 
 ## Hello Processing libraries!
