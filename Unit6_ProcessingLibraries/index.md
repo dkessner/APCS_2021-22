@@ -10,6 +10,11 @@ Topics:
 [Assignment](Unit6_Assignment)
 
 
+Bouncing ball demo files:
+- [Ball.java](demo/Ball.java)  
+- [BouncingBalls.java](demo/BouncingBalls.java)
+
+
 ## Set your CLASSPATH
 
 On Mac, if you installed Processing in your Applications folder, the
@@ -39,4 +44,6 @@ You will want to add this line to your shell initialization file, e.g.
 <script>
 let hello = new p5(addHandlers(helloSketchMaker), "helloContainer");
 </script>
+
+
 
