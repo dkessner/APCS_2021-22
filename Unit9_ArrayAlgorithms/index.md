@@ -9,8 +9,6 @@ Topics:
 - transform
 - building sequences
 
-The quick brown fox jumps over the lazy dog.
-
 [Assignment](Unit9_Assignment)
 
 [ArrayAlgorithms.java](demo/ArrayAlgorithms.java)
