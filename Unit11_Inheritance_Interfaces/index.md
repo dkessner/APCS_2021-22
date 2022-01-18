@@ -20,3 +20,7 @@ Topics:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PIhjtoqriOE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+[Text IO demo (Text.java)](demo/Text.java)  
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DV5F_z-Q-kQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
