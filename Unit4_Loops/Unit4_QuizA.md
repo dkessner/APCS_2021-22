@@ -27,16 +27,16 @@ sumOfSquares(4) -> 1+4+9+16 = 30
 
 ### 2. A-friendly
 
-A string is _A-friendly_ if it begins with "a", ends with "a", or contains at
-least 3 a's.  Write a function that takes a single string as input and returns
-true if the string is A-friendly, false otherwise.
+A string is _A-friendly_ if it contains at least 3 a's.  Write a function that
+takes a single string as input and returns true if the string is A-friendly,
+false otherwise.
 
 For example:
 ```
-aFriendly("angry") -> true
-aFriendly("mea culpa") -> true
+aFriendly("an angry aardvark ate an apple") -> true
+aFriendly("mea culpa") -> false
 aFriendly("bananas") -> true
-aFriendly("book") -> false
+aFriendly("aargh") -> false
 ```
 
 
