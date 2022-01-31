@@ -19,8 +19,10 @@ Topics:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zYKxx7RU5Y4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Image processing demo
 
-Image processing demo:
+[notes (pdf)](notes.pdf)
+![](0.png)
 
 [HelloImage.pde](HelloImage/HelloImage.pde)
 
