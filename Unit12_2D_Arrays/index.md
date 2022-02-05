@@ -24,6 +24,7 @@ Topics:
 [notes (pdf)](notes.pdf)
 ![](0.png)
 
-[HelloImage.pde](HelloImage/HelloImage.pde)
+[HelloImage.pde](HelloImage/HelloImage.pde)  
+[gadget.jpg](HelloImage/gadget.jpg)  
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3nDCw6hHjvU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
